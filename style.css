@@ -80,7 +80,15 @@ h1, p{
     
 }
 
+.header .btn{
+    color: #000000;
+    background-color: #ffffff;
+    font-weight:500;
+}
 
+.header .btn:hover{
+        background-color: #deeaec;
+}
 
 
 /* HEADER */
@@ -140,7 +148,8 @@ h1, p{
 
 /*Skills*/
 .Skills{
-    padding-top:150px;
+    /* padding-top:150px; */
+    margin-top: 250px;
     margin-bottom: 250px;
     
 }
@@ -187,6 +196,16 @@ h1, p{
     /* border: 5px solid #333; */
     border-radius: 100px;
     box-shadow: #33333333 5px 5px 5px 5px;
+}
+
+#Projects .btn{
+    color: #000000;
+    background-color: #3ca7ff;
+    font-weight:500;
+}
+
+#Projects .btn:hover{
+    background-color: #1b899c;
 }
 
 #Projects .Container{
@@ -410,7 +429,7 @@ h1, p{
     
     .About img{
         margin: auto;
-        width: 50%;
+        width: 100%;
         max-width: 800px;
         padding-bottom: 20px;
     }
@@ -428,7 +447,7 @@ h1, p{
     }
 
     #carouselExampleCaptions {
-        width: 80%; /* Increase width on smaller screens */
+        width: 70%; /* Increase width on smaller screens */
         margin-right: 20px; /* Reduce margin on small screens */
         margin-top: 20px; /* Adjust top margin */
         float: none; /* Remove float */
@@ -445,7 +464,7 @@ h1, p{
     
     .About img{
         margin: auto;
-        width: 50%;
+        width: 70%;
         padding-bottom: 20px;
     }
 
